@@ -5,40 +5,52 @@ nav .brand-logo {
 
 body {
   /* background-image: url("../background.jpg"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  background-color: #272727;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #dddddd;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #14a76c;
+  color: #3caed1;
 }
 
 .listItems {
-  color: #ccc;
+  /* color: #ccc; */
+  color: #444;
 }
 
 p {
   line-height: 2rem;
-  color: #d1e8e2;
+  /* color: #d1e8e2; */
+  color: #444;
+
+}
+
+.contactSection {
+  border-top: 4px solid #7395ae;
 }
 
 .meSection {
   /* background-color: #; */
-  /* border-bottom: 2px solid #7395ae; */
+  border-bottom: 4px solid #7395ae;
+}
+
+.projectsHeader {
+  color: white;
 }
 
 .portfolioSection {
-  /* background-color: #; */
+  border-top: 4px solid #7395ae;
+  background-color: #b9b5b5;
 }
 
 .card {
-  background-color: #272727;
-  border: 2px solid #14a76c;
+  background-color: #cecece;
+  border: 2px solid #7395ae;
 }
 
 .navStyle {
-  /* border-bottom: 2px solid #7395ae; */
+  border-bottom: 2px solid #7395ae;
 }
 
 .footerStyle {
@@ -46,7 +58,7 @@ p {
 }
 
 .navStyle, .footerStyle {
-  background-color: #272727;
+  background-color: #cecece;
 }
 
 .sidenav-trigger {
